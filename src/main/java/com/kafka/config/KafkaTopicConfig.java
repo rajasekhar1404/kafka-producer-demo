@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.kafka.config.TopicBuilder;
 
 @Configuration
-public class UserKafkaConfig {
+public class KafkaTopicConfig {
 
     public static final String TOPIC = "message_topic";
 
